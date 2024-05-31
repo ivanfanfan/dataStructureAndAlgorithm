@@ -1,0 +1,57 @@
+Dynamic Programming (DP) is defined as a technique that solves
+some particular type of problems in Polynomial Time. Dynamic Programming
+solutions are faster than the exponential brute method and can
+be easily proved their correctness.
+
+DP works on following principles:
+    1. Characterize structure of optimal solution, i.e. build
+        a mathematical model of the solution
+    2. Recursively define the value of the optimal solution
+    3. Using bottom-up approach, compute the value of the optimal
+        solution for each possible subproblems
+    4. Construct optimal solution for the original problem using information
+        computed in the previous step.
+
+Application:
+    1. make a change problem
+    2. knapsack problem
+    3. Optimal binary search tree
+
+Techniques to solve Dynamic Programming Problems:
+    1. Top-Down (memoization):
+        Break down the given problem in order to begin solving it. If you see
+        that the problem has already been solved, return the saved answer. If it
+        hasn't been solved, solve it and save it. This is usually easy to think of
+        very intuitive.
+    2. Bottom-Up (Tabulation)
+        Analyze the problem and see in what order the subproblems are solved, and
+        work your way up from the trivial subproblem to the given problem. This
+        process ensures that the subproblems are solved before the main problem.
+
+How to solve dynamic programming problem?
+    To dynamically solve a problem, we need to check two necessary conditions:
+        1. Overlapping subproblems:
+        2. Optimal Substructure property
+    Step to solve a Dynamic programming problem:
+    1. Identify if it is a Dynamic programming problem.
+    2. Decide a state expression with the Least parameters
+    3. Formulate state and transition relationships.
+    4. Do tabulation (or memorization)
+
+    1. how to classify a problem as a dynamic programming algorithm problem
+        (1) Typically, all the problems that require maximizing or minimizing certain
+            quantities or counting problems that say to count the arrangements under
+            certain conditions or certain probability problems can be solved by using
+            Dynamic Programming.
+        (2)
+
+How Does Dynamic Programming work?
+    1. Identify Subproblems: Divide the main problem into smaller, independent subproblems.
+    2. Store Solutions: Solve each subproblem and store the solution in a table or array
+    3. Build up solutions: Use the stored solutions to build up the solution to the main problem
+    4. Avoid Redundancy: By storing solutions, DP ensures that each subproblem is solved only once,
+        reducing computation time.
+
+
+
+
